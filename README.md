@@ -16,12 +16,12 @@ and per-song links. The page reads the same `data/songs-*.json` shards as the ba
 
 ## Counts
 
-- Unique songs: 352
-- With a direct Spotify track link: 346
-- With an Apple Music track link (iTunes match): 323
-- With a direct YouTube watch link: 196 (the rest use a labelled YouTube search link)
-- Languages: {'English': 309, 'Hindi': 17, 'Urdu': 8, 'Hindi/Urdu': 12, 'Punjabi': 1, 'Spanish': 4, 'Japanese': 1}
-- Types (from iTunes genre, see below): {'Pop': 111, 'Alternative / Indie': 57, 'Soundtrack': 11, 'Electronic / Dance': 28, 'Unknown': 29, 'Rock': 31, 'R&B / Soul': 11, 'Folk': 1, 'Hard Rock': 7, 'Indie Rock': 5, 'J-Pop': 5, 'Hip-Hop / Rap': 4, 'Singer/Songwriter': 6, 'Musicals': 1, 'K-Pop': 2, 'Metal': 2, 'Jazz': 3, 'Pop Latino': 4, 'Indie Pop': 7, 'Indian': 1, 'Country': 2, 'Roots Reggae': 1, 'Indian Pop': 6, 'Pop/Rock': 1, 'Latin': 2, 'Reggae': 1, 'Urbano latino': 2, 'Classical Crossover': 1, 'Bollywood': 4, 'Techno': 1, 'Contemporary R&B': 1, 'Adult Contemporary': 1, 'New Wave': 1, 'Electronica': 1, "Children's Music": 1}
+- Unique songs: 358
+- With a direct Spotify track link: 352
+- With an Apple Music track link (iTunes match): 328
+- With a direct YouTube watch link: 197 (the rest use a labelled YouTube search link)
+- Languages: {'English': 315, 'Hindi': 17, 'Urdu': 8, 'Hindi/Urdu': 12, 'Punjabi': 1, 'Spanish': 4, 'Japanese': 1}
+- Types (from iTunes genre, see below): {'Pop': 113, 'Alternative / Indie': 57, 'Soundtrack': 11, 'Electronic / Dance': 28, 'Unknown': 30, 'Rock': 31, 'R&B / Soul': 13, 'Folk': 1, 'Hard Rock': 7, 'Indie Rock': 5, 'J-Pop': 5, 'Hip-Hop / Rap': 5, 'Singer/Songwriter': 6, 'Musicals': 1, 'K-Pop': 2, 'Metal': 2, 'Jazz': 3, 'Pop Latino': 4, 'Indie Pop': 7, 'Indian': 1, 'Country': 2, 'Roots Reggae': 1, 'Indian Pop': 6, 'Pop/Rock': 1, 'Latin': 2, 'Reggae': 1, 'Urbano latino': 2, 'Classical Crossover': 1, 'Bollywood': 4, 'Techno': 1, 'Contemporary R&B': 1, 'Adult Contemporary': 1, 'New Wave': 1, 'Electronica': 1, "Children's Music": 1}
 - Posts with no verifiable song: 135 (listed at the bottom — mostly carousel threads whose
   songs live only in slide images; nothing was guessed for them)
 
