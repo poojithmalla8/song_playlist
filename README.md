@@ -16,13 +16,13 @@ and per-song links. The page reads the same `data/songs-*.json` shards as the ba
 
 ## Counts
 
-- Unique songs: 358
-- With a direct Spotify track link: 352
-- With an Apple Music track link (iTunes match): 328
+- Unique songs: 363
+- With a direct Spotify track link: 357
+- With an Apple Music track link (iTunes match): 333
 - With a direct YouTube watch link: 197 (the rest use a labelled YouTube search link)
-- Languages: {'English': 315, 'Hindi': 17, 'Urdu': 8, 'Hindi/Urdu': 12, 'Punjabi': 1, 'Spanish': 4, 'Japanese': 1}
-- Types (from iTunes genre, see below): {'Pop': 113, 'Alternative / Indie': 57, 'Soundtrack': 11, 'Electronic / Dance': 28, 'Unknown': 30, 'Rock': 31, 'R&B / Soul': 13, 'Folk': 1, 'Hard Rock': 7, 'Indie Rock': 5, 'J-Pop': 5, 'Hip-Hop / Rap': 5, 'Singer/Songwriter': 6, 'Musicals': 1, 'K-Pop': 2, 'Metal': 2, 'Jazz': 3, 'Pop Latino': 4, 'Indie Pop': 7, 'Indian': 1, 'Country': 2, 'Roots Reggae': 1, 'Indian Pop': 6, 'Pop/Rock': 1, 'Latin': 2, 'Reggae': 1, 'Urbano latino': 2, 'Classical Crossover': 1, 'Bollywood': 4, 'Techno': 1, 'Contemporary R&B': 1, 'Adult Contemporary': 1, 'New Wave': 1, 'Electronica': 1, "Children's Music": 1}
-- Posts with no verifiable song: 135 (listed at the bottom — mostly carousel threads whose
+- Languages: {'English': 319, 'Hindi': 17, 'Urdu': 8, 'Hindi/Urdu': 12, 'Punjabi': 1, 'Spanish': 5, 'Japanese': 1}
+- Types (from iTunes genre, see below): {'Pop': 113, 'Alternative / Indie': 57, 'Soundtrack': 11, 'Electronic / Dance': 30, 'Unknown': 30, 'Rock': 31, 'R&B / Soul': 14, 'Folk': 1, 'Hard Rock': 7, 'Indie Rock': 5, 'J-Pop': 5, 'Hip-Hop / Rap': 5, 'Singer/Songwriter': 6, 'Musicals': 1, 'K-Pop': 2, 'Metal': 2, 'Jazz': 3, 'Pop Latino': 4, 'Indie Pop': 7, 'Indian': 1, 'Country': 2, 'Roots Reggae': 1, 'Indian Pop': 6, 'Pop/Rock': 1, 'Latin': 3, 'Reggae': 1, 'Urbano latino': 2, 'Classical Crossover': 1, 'Bollywood': 4, 'Techno': 1, 'Contemporary R&B': 1, 'Adult Contemporary': 1, 'New Wave': 1, 'Electronica': 2, "Children's Music": 1}
+- Posts with no verifiable song: 136 (listed at the bottom — mostly carousel threads whose
   songs live only in slide images; nothing was guessed for them)
 
 ## How songs were identified
@@ -74,7 +74,7 @@ to audit any record against its Instagram post.
 Create a playlist, then add every URI in `data/spotify_uris.txt` (the playlist created
 2026-10-29 is `spotify:playlist:1G3dlgJC0MyCt4EOHt88Va`).
 
-## Unverified posts (135)
+## Unverified posts (136)
 
 These posts named no title + artist pair in caption or reel-description text, so no song
 record was created for them. Most are carousel threads whose song lists live only in slide
@@ -215,3 +215,4 @@ images, or reels whose song lives only in the audio. Links are Instagram post UR
 - https://www.instagram.com/reel/CuWRBk0pCWf/ — no song named in caption/narrative; songs only in carousel slides/audio
 - https://www.instagram.com/p/CxGIE6UpOVB/ — no song named in caption/narrative; songs only in carousel slides/audio
 - https://www.instagram.com/p/CLj0xbjgROQ/ — no song named in caption/narrative; songs only in carousel slides/audio
+- https://www.instagram.com/reel/DfH5DE-xA53/ — no song named in caption/narrative; only a Spotify playlist ('Binaural Beats: Focus') mentioned, no track title/artist
